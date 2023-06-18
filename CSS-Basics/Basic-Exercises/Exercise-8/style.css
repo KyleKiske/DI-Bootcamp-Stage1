@@ -1,19 +1,39 @@
-.odd {
-    background-color: #ffc3b9;
-    font-family: Verdana, DejaVu Sans, sans-serif;
-}
-
-#second {
-    color: #0000c9;
-    font-size: 36px;
-}
-
-.cooler {
-    font-size: 24px;
-}
-
-#fourth {
-    font-weight: bold;
-    background-color: rgb(169, 229, 147);
-    font-size: 24px;
-}
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 8px;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  button {
+    background: white;
+    display: block;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    padding: 8px 24px;
+  }
