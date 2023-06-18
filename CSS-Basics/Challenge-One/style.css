@@ -1,0 +1,20 @@
+body { 
+    background: #55CCFF;
+    font-family: Arial
+}
+
+#wrap{
+    align-content: center;
+}
+
+h1 {
+    font-family: "Times New Roman";
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+li::first-letter {
+    font-size: 1.5em;
+}

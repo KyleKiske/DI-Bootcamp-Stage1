@@ -1,0 +1,34 @@
+body { 
+    background-color: #E2AC7F;
+    font-family: Arial;
+    text-align:center;
+}
+#wrap {
+    border-style: dashed;
+    border-width: 5px;
+    background-color: #F5F5DC;
+    width: 40%;
+    margin: auto;
+}
+h1 {
+    border-style: dashed;
+    border-width: 5px 0px;
+    font-family: "Times New Roman";
+}
+
+li {
+    text-align: center;
+    font-style: italic;
+    list-style: none;
+}
+
+.copyright {
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+li::first-letter {
+    font-size: 1.5em;
+}
